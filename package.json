@@ -1,10 +1,14 @@
 {
-  "name": "github-core-clone-01-v2",
+  "name": "github-core-clone",
   "version": "1.0.0",
-  "private": true,
+  "description": "GitHub core clone: smart-HTTP git, REST v3, GraphQL, MCP",
   "type": "module",
-  "description": "A deterministic, in-memory GitHub-compatible forge.",
-  "license": "MIT",
-  "engines": { "node": ">=22.18" },
-  "scripts": { "start": "node --experimental-strip-types main.ts" }
+  "main": "main.ts",
+  "scripts": {
+    "start": "node main.ts"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
 }
