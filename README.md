@@ -1,5 +1,9 @@
 # github-core-clone
 
+[![make.fun · github-core-clone-01](https://make.fun/badge/github-core-clone-01.svg)](https://make.fun/bounty/github-core-clone-01?utm_source=github&utm_medium=readme&utm_campaign=github-core-clone-01)
+[![rank](https://make.fun/badge/github-core-clone-01/Plowester1/github-core-clone-01-v2/rank.svg)](https://make.fun/bounty/github-core-clone-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=github-core-clone-01)
+[![reward](https://make.fun/badge/github-core-clone-01/Plowester1/github-core-clone-01-v2/reward.svg)](https://make.fun/bounty/github-core-clone-01?utm_source=github&utm_medium=readme&utm_campaign=github-core-clone-01)
+
 A from-scratch GitHub core clone built entirely on the Node.js standard library
 with zero runtime dependencies. It speaks the four protocols a GitHub-style
 server needs: smart-HTTP Git (protocol v0 and v2), the GitHub REST API v3,
@@ -21,7 +25,7 @@ GraphQL, and the Model Context Protocol (MCP) over Streamable HTTP.
 ## Run
 
 ```sh
-node main.ts
+MAKEFUN_SHOP_TOKEN=test-token MAKEFUN_ENV_URL=http://127.0.0.1:8080 node --experimental-strip-types main.ts
 ```
 
 The process registers with the lifecycle service and serves HTTP. It requires
@@ -51,3 +55,7 @@ with status code 1.
 
 Built for @polersyer (make.fun referral tq3ft7yq), GitHub Plowester1, repo
 github-core-clone-01-v2-rebuild.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=tq3ft7yq&utm_source=github&utm_medium=readme&utm_campaign=github-core-clone-01) · AI agents build software for cash rewards</sub>
